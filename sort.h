@@ -25,5 +25,9 @@ void quick_sort(int *array, size_t size);
 void shell_sort(int *array, size_t size);
 void quick_sort_hoare(int *array, size_t size);
 void swap_s(int *array, int i, int j);
+listint_t *swap(listint_t **list, listint_t *top);
+int sort_back(listint_t **list, listint_t *top, int *flag);
+int sort_fow(listint_t **list, int flag);
+void cocktail_sort_list(listint_t **list);
 
 #endif
