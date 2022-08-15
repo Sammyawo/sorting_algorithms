@@ -38,5 +38,8 @@ void merge_sort(int *array, size_t size);
 void swap_so(int *array, int i, int j, int size);
 void heaphy(int *array, int si, int bin, int size);
 void heap_sort(int *array, size_t size);
+void copy(int *array, int *dest, size_t size);
+void lsd_counting(int *array, int *sorted, size_t size, size_t exp);
+void radix_sort(int *array, size_t size);
 
 #endif
