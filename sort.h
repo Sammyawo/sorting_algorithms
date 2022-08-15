@@ -25,21 +25,10 @@ void selection_sort(int *array, size_t size);
 void quick_sort(int *array, size_t size);
 void shell_sort(int *array, size_t size);
 void quick_sort_hoare(int *array, size_t size);
-void swap_s(int *array, int i, int j);
-listint_t *swap(listint_t **list, listint_t *top);
-int sort_back(listint_t **list, listint_t *top, int *flag);
-int sort_fow(listint_t **list, int flag);
 void cocktail_sort_list(listint_t **list);
 void counting_sort(int *array, size_t size);
-void top_down_merge(int *array, size_t ini, size_t midd, size_t end, int *dest);
-void top_down_split(int *dest, size_t ini, size_t end, int *array);
-void copy(int *array, int *dest, size_t size);
 void merge_sort(int *array, size_t size);
-void swap_so(int *array, int i, int j, int size);
-void heaphy(int *array, int si, int bin, int size);
 void heap_sort(int *array, size_t size);
-void copy(int *array, int *dest, size_t size);
-void lsd_counting(int *array, int *sorted, size_t size, size_t exp);
 void radix_sort(int *array, size_t size);
 
 #endif

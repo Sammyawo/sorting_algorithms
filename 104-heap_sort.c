@@ -8,7 +8,7 @@
  * @size: size
  * Return: nothing
  */
-void swap_so(int *array, int i, int j, int size)
+void swap_s(int *array, int i, int j, int size)
 {
 	int copy_num = 0;
 
@@ -38,7 +38,7 @@ void heaphy(int *array, int si, int bin, int size)
 
 	if (largt != bin)
 	{
-		swap_so(array, bin, largt, size);
+		swap_s(array, bin, largt, size);
 		heaphy(array, si, largt, size);
 	}
 }
@@ -59,7 +59,7 @@ void heap_sort(int *array, size_t size)
 	for (bin = size - 1; bin >= 0; bin--)
 	{
 		if (bin != 0)
-			swap_so(array, bin, 0, size);
+			swap_s(array, bin, 0, size);
 		heaphy(array, bin, 0, size);
 	}
 }
