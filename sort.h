@@ -31,5 +31,9 @@ int sort_back(listint_t **list, listint_t *top, int *flag);
 int sort_fow(listint_t **list, int flag);
 void cocktail_sort_list(listint_t **list);
 void counting_sort(int *array, size_t size);
+void top_down_merge(int *array, size_t ini, size_t midd, size_t end, int *dest);
+void top_down_split(int *dest, size_t ini, size_t end, int *array);
+void copy(int *array, int *dest, size_t size);
+void merge_sort(int *array, size_t size);
 
 #endif
